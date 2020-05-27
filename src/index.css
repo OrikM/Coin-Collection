@@ -1,13 +1,202 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-top: 50px;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.link_to_main {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: black;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+}
+
+.tbody tr:nth-child(odd) {
+  background: white;
+}
+
+.tbody {
+  width: 100%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* .input-wrapper > div {
+  margin-top: 20px;
+  display: grid;
+  grid-template-rows: 0.5fr 1fr;
+  grid-column-gap: 0;
+} */
+
+.advanced_button {
+  background: transparent;
+  border: none !important;
+
+  width: auto;
+  margin-top: -20px;
+  padding-left: 0;
+}
+
+.advanced_button:focus {
+  border: none !important;
+  outline: none;
+}
+.advanced_button span {
+  text-decoration: underline;
+}
+.advanced_button i {
+  margin-left: 5px;
+  text-decoration: none;
+}
+input {
+  height: 48px;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+label {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 109%;
+  /* or 15px */
+  margin-bottom: 5px;
+
+  color: #000000;
+}
+
+button {
+  width: 120px;
+  height: 48px;
+  justify-content: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: none;
+}
+
+.main-page {
+}
+
+small {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 109%;
+  /* or 11px */
+
+  display: flex;
+  align-items: center;
+
+  color: #b1abab;
+  margin-bottom: 20px;
+}
+small a {
+  color: #b1abab;
+  text-decoration: underline;
+}
+i {
+  text-decoration-line: none;
+}
+
+option {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 121%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+select {
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  width: 374px;
+  height: 48px;
+}
+
+.avatar-uploader > .ant-upload {
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+}
+
+/*  */
+
+
+@media screen and (max-width: 380px){
+  html{
+    font-size: 7px;
+  }
+}
+
+@media screen and (min-width: 380px) and (max-width: 480px){
+  html{
+    font-size: 8px;
+  }
+}
+
+@media screen and (min-width: 480px) and (max-width: 620px){
+  html{
+    font-size: 10px
+  }
+}
+
+@media screen and (min-width: 620px) and (max-width: 768px){
+  html{
+    font-size: 12px
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  html{
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  html{
+    font-size: 16px;
+  }
 }

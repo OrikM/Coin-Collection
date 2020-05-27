@@ -1,0 +1,55 @@
+.fieldsScreen {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 1.25rem;
+  min-width: 73.875rem;
+}
+
+.fieldsScreen .column {
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fieldsScreen .fields {
+  height: 15.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.fieldsScreen .buttons {
+  align-self: center;
+}
+
+.buttons a {
+  text-decoration: none;
+}
+
+.edit_button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  align-self: flex-start;
+  justify-content: center;
+  border: none;
+  color: #000000;
+  background: #e5e5e5;
+  width: 120px;
+  height: 48px;
+}
+
+.coin-block {
+  max-height: 350px;
+  display: inline-block;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 10px;
+  margin-bottom: 15px;
+}
