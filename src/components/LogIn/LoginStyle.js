@@ -16,10 +16,10 @@ const Form = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center
   align-items: center;
   width: 22vw;
-  margin: 170px auto;
+  margin: 0px auto;
+  padding-top: 200px;
 `;
 const LogBlock = styled.div`
   margin-bottom: 20px;
